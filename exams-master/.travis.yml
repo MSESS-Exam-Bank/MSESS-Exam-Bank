@@ -1,0 +1,5 @@
+language: bash
+script:
+- common/travis/checkFileName.sh
+after_success:
+- common/travis/push.sh
